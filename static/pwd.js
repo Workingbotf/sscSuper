@@ -6,18 +6,20 @@ function rickrollormathwebsite() {
         window.location.href = "https://mathlibs.onrender.com/gotem";
     }
 }
-if (localStorage.getItem("auth") != 'true') {
-    PWD = 'lol'
-    a = prompt("Password")
-    if (a == PWD) {
-        alert("You are signed in! DO NOT BOOKMARK THIS TAB")
-        //if password is right, store it in localstorage
-        localStorage.setItem("auth", "true")
-    } else {
-        //else rickroll or lead to math website
-        rickrollormathwebsite();
-    }
+if (localStorage.getItem("auth") == 'true') {
+    localStorage.setItem("auth", "false")
 }
-checkIfWebsiteLooksOld();
+
+PWD = 'iwillcomeandgetyou'
+a = prompt("Password")
+if (a == PWD) {
+    alert("You are signed in! DO NOT BOOKMARK THIS TAB")
+    //if password is right, store it in localstorage
+    localStorage.setItem("auth", "true")
+} else {
+    //else rickroll or lead to math website
+    rickrollormathwebsite();
+}
+
 
 
