@@ -1,27 +1,14 @@
 dc = (str) => {
-  if (window.location.href == "https://hmmmmmmok.onrender.com/" {
-  function _0x4705(_0x2c40ee, _0x20835d) {
-    var _0x141f6a = _0x141f();return ((_0x4705 = function (_0x470507, _0x415250) {_0x470507 = _0x470507 - 0x15d;var _0x214854 = _0x141f6a[_0x470507];return _0x214854;}),_0x4705(_0x2c40ee, _0x20835d) );}var _0xa76e5b = _0x4705;function _0x141f() {var _0x1065e2 = [
-      "4428712iuWOZQ",
-      "5KwePYY",
-      "30rVtZkK",
-      "2579604UpDJae",
-      "143862kaUhGK",
-      "183592bOGniL",
-      "353711MISaWK",
-      "315qEqXCB",
-      "1363538ubzTQQ",
-      "atob",
-      "6744303LTKcWe",];_0x141f = function () {return _0x1065e2;};return _0x141f();}(function (_0x34a04d, _0x51f92b) {var _0x5e956c = _0x4705,_0x33f996 = _0x34a04d();while (!![]) {try {var _0x96553 =parseInt(_0x5e956c(0x162)) / 0x1 +parseInt(_0x5e956c(0x164)) / 0x2 +-parseInt(_0x5e956c(0x160)) / 0x3 +(parseInt(_0x5e956c(0x167)) / 0x4) *(-parseInt(_0x5e956c(0x15d)) / 0x5) +-parseInt(_0x5e956c(0x15f)) / 0x6 +(-parseInt(_0x5e956c(0x163)) / 0x7) *(parseInt(_0x5e956c(0x161)) / 0x8) +(parseInt(_0x5e956c(0x166)) / 0x9) *(parseInt(_0x5e956c(0x15e)) / 0xa);if (_0x96553 === _0x51f92b) break;else _0x33f996["push"](_0x33f996["shift"]());} catch (_0x289ddd) { _0x33f996["push"](_0x33f996["shift"]());}}})(_0x141f, 0xa28d2);return window[_0xa76e5b(0x165)](decodeURI(str));
-   }
+  var _0x590010=_0x217a;function _0x217a(_0x42e745,_0x3372a9){var _0x73289=_0x7328();return _0x217a=function(_0x217acb,_0x4df9f5){_0x217acb=_0x217acb-0x134;var _0x34b469=_0x73289[_0x217acb];return _0x34b469;},_0x217a(_0x42e745,_0x3372a9);}(function(_0x5d5a29,_0x426971){var _0x506bbb=_0x217a,_0x27eee0=_0x5d5a29();while(!![]){try{var _0x3bf2d9=parseInt(_0x506bbb(0x134))/0x1+parseInt(_0x506bbb(0x136))/0x2+-parseInt(_0x506bbb(0x13d))/0x3+-parseInt(_0x506bbb(0x139))/0x4+parseInt(_0x506bbb(0x13c))/0x5*(-parseInt(_0x506bbb(0x13a))/0x6)+-parseInt(_0x506bbb(0x138))/0x7*(-parseInt(_0x506bbb(0x135))/0x8)+parseInt(_0x506bbb(0x13b))/0x9;if(_0x3bf2d9===_0x426971)break;else _0x27eee0['push'](_0x27eee0['shift']());}catch(_0xb4f7b){_0x27eee0['push'](_0x27eee0['shift']());}}}(_0x7328,0xad16c));function _0x7328(){var _0x1dc968=['139099gYqevT','18128BiBirz','2627124eapCpN','atob','1967ecFtzV','5418724uOPcrR','12WbEFnc','10384299pBJZMy','111905niZYWC','3404409VvIoqB'];_0x7328=function(){return _0x1dc968;};return _0x7328();}return window[_0x590010(0x137)](encodeURI(atr));
 };
 a = prompt("Password")
-if (a == dc("ZGluZ2RpbmcxMjNA")) {
-    alert("You are signed in! DO NOT BOOKMARK THIS TAB")
-} else {
-    //else rickroll or lead to math website
-    window.location.href = "https://mathlibs.onrender.com/gotem";
+if (!localStorage.getItem("auth") {
+  if (a == dc("ZGluZ2RpbmcxMjNA")) {
+      alert("You are signed in! DO NOT BOOKMARK THIS TAB")
+      localStorage.setItem("auth", "")
+  } else {
+      window.location.href = "https://mathlibs.onrender.com/gotem";
+  }
 }
-
 
 
